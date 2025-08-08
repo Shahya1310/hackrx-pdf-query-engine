@@ -1,0 +1,10 @@
+POST http://localhost:8000/api/v1/hackrx/run
+Authorization: Bearer 6437ffe7918b0f0d4fd17b27039732cb1810792e671951165f5cd6844e636ea4
+Content-Type: application/json
+
+{
+    "documents": "https://hackrx.blob.core.windows.net/assets/policy.pdf?...",
+    "questions": [
+        "Does this policy cover knee surgery, and what are the conditions?"
+    ]
+}
